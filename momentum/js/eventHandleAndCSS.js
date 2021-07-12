@@ -1,8 +1,8 @@
 const h1 = document.querySelector("div.hello:first-child h1");
 
-function handTitleClick() {
+function handleTitleClick() {
     const clickedClass = "clicked";
     h1.classList.toggle(clickedClass);
 }
 
-h1.addEventListener("click", handTitleClick);
+h1.addEventListener("click", handleTitleClick);
