@@ -1,3 +1,28 @@
 .hidden {
     display: none;
 }
+
+.bgimg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    object-fit: cover;
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#clock {
+    color: white;
+    position: absolute;
+    left: 840px;
+    top: 450px;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
