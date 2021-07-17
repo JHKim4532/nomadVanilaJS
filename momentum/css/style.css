@@ -11,7 +11,6 @@
     z-index: -1;
     display: flex;
     object-fit: cover;
-    background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5));
 }
 
 body{
