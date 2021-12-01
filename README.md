@@ -22,7 +22,7 @@
 >> 숫자 자료형
 >> 3가지 상징적인 값, `NaN`(Not-A-Number), `+Infinity`, `-Infinity` 있음
 >
-> Bignt
+> BigInt
 >> Number 자료형이 안정적으로 나타낼 수 있는 최대치인 2^53 - 1보다 큰 정수를 표현할 수 있는 내장 객체
 >> 정수 끝에 n을 추가하거나 생성자를 호출하여 생성
 >
@@ -30,7 +30,7 @@
 >> 문자열 자료형
 >
 > Symbol
->> 유일하고 변경 불가능한 (immutable) 기본값 (primitive value)
+>> 유일하고 변경 불가능한(immutable) 기본값(primitive value)
 >> 객체 속성의 key 값으로도 사용될 수 있음
 >> 몇몇 프로그래밍 언어에서는 Symbol을 atom 이라고 지정, C언어의 이름있는 열거형 (enum) 과도 비슷 
 ---
